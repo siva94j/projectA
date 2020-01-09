@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	chrome.manage().window().maximize();
 	chrome.get("http://www.google.com/");
 	WebElement query = chrome.findElement(By.xpath("//input[@name='q']"));
-	query.sendKeys("greens velmurugan");
+	query.sendKeys("siva94j@gail.com");
 	query.sendKeys(Keys.RETURN);
 	WebElement firstlink = chrome.findElement(By.xpath("(//div[@class='g'])[1]//span"));
 	firstlink.click();
